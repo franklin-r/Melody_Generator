@@ -2,7 +2,7 @@
 -- *                         Melody_Generator                                     *
 -- *                         Component : ROM                                      *
 -- *                                                                              *
--- * Ins : The note adress on 10 bits (from 0 to 1023), clk                       *
+-- * Ins : The note adress on 10 bits (from 0 to 1023)                      	  *
 -- * Outs : The corresponding coded note, on 8 bits                               *
 -- * Use : Read-Only-Memory, gives the data corresponding to the given adress     *
 -- * comments : - The note format is as follow: XXXX   XX      XX                 *
