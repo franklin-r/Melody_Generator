@@ -1,5 +1,5 @@
 -- *********************************************************************************
--- *                            MelodyGenerator                                    *
+-- *                            Melody_Generator                                   *
 -- *                       Component : ADDRESS_COUNTER                             *
 -- *                                                                               *
 -- * Ins : Tick_Next_Note indicating if the current note is over, reset and clock  *

@@ -1,5 +1,5 @@
 -- *******************************************************************************
--- *                        Melody Generator                                     *
+-- *                        Melody_Generator                                     *
 -- *                       Component : MUX_4v1_1bit                              *
 -- *                                                                             *
 -- * Ins : 4 Time-Ticks from the FDIV, clock, 2-bits Duration from the Memory 	 *
