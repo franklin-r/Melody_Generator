@@ -2,8 +2,8 @@
 -- *                        Melody Generator                                     *
 -- *                       Component : MUX_4v1_1bit                              *
 -- *                                                                             *
--- * Ins : 4 Time-Ticks from the FDIV, clock, 2-bits Duration from the Memory 	*
--- * Outs : Tick_Next_Note to the Adress_Counter, Clear to FDIV         		  	*
+-- * Ins : 4 Time-Ticks from the FDIV, clock, 2-bits Duration from the Memory 	 *
+-- * Outs : Tick_Next_Note to the Adress_Counter, Clear to FDIV         		 *
 -- * Use : Assign the correct Time-Tick signal to the Adress_Counter,            *
 -- *       depending on the duration of the note.                                *
 -- * comments : - When the Time_Tick assigned to Tick_Next_Note hits one,        *
