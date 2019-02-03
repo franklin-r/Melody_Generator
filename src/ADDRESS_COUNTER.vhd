@@ -18,7 +18,7 @@ entity ADDRESS_COUNTER is
 	port (	CLK : in std_logic;
 			RST : in std_logic; 								--Asynchronous reset
 			Tick_next_note : in std_logic;     					--Gets Tick-Next-Out from a frequency-divider, Start, Rest and Clk are global entries
-			Adress_Note : out std_logic_vector (9 downto 0)); 	--Indicates which note needs to be played, gives the info to the memory
+			Address_Note : out std_logic_vector (9 downto 0)); 	--Indicates which note needs to be played, gives the info to the memory
 end entity;
 
 architecture BEHAVIOUR of ADDRESS_COUNTER is
@@ -41,5 +41,5 @@ architecture BEHAVIOUR of ADDRESS_COUNTER is
        end if;
        
     end process;
-	 Adress_Note <= Count;						--The note adress take the counter as value
+	 Address_Note <= Count;						--The note adress take the counter as value
   end architecture;
